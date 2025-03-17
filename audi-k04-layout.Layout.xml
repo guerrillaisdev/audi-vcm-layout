@@ -1,0 +1,656 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DocumentContents>
+  <!-- Primary Gauge Display -->
+  <Content ID="2" Name="Gauge" Parent="-1" IsActiveContent="True" Text="Performance Gauges">
+    <!-- RPM Gauge - Large central gauge -->
+    <Gauge>
+      <RelativeLocation>16.61, 1.8</RelativeLocation>
+      <RelativeSize>33.06, 49.09</RelativeSize>
+      <Type>1</Type>
+      <Label>RPM</Label>
+      <ParameterID>50070</ParameterID>
+      <Unit>56</Unit>
+      <Maximum>8000</Maximum>
+      <MajorTickCount>9</MajorTickCount>
+      <MajorTickFactor>1000</MajorTickFactor>
+      <MinorTickCount>5</MinorTickCount>
+      <BaseArcStart>135</BaseArcStart>
+      <BaseArcSweep>270</BaseArcSweep>
+      <DrawMaximumPeak>True</DrawMaximumPeak>
+      <Ranges>
+        <Range Start="6500" End="7000" Level="2" />
+        <Range Start="7000" End="8000" Level="3" />
+      </Ranges>
+    </Gauge>
+    
+    <!-- Boost Gauge - Large gauge -->
+    <Gauge>
+      <RelativeLocation>50.63, 1.8</RelativeLocation>
+      <RelativeSize>33.06, 49.09</RelativeSize>
+      <Type>1</Type>
+      <Label>Boost</Label>
+      <ParameterID>50030</ParameterID> <!-- MAP sensor -->
+      <Unit>91</Unit>
+      <Minimum>-15</Minimum>
+      <Maximum>30</Maximum>
+      <MajorTickCount>10</MajorTickCount>
+      <MajorTickFactor>5</MajorTickFactor>
+      <MinorTickCount>5</MinorTickCount>
+      <BaseArcStart>135</BaseArcStart>
+      <BaseArcSweep>270</BaseArcSweep>
+      <DrawMaximumPeak>True</DrawMaximumPeak>
+      <Ranges>
+        <Range Start="22" End="25" Level="2" />
+        <Range Start="25" End="30" Level="3" />
+      </Ranges>
+    </Gauge>
+    
+    <!-- AFR Gauge -->
+    <Gauge>
+      <RelativeLocation>1.1, 1.8</RelativeLocation>
+      <RelativeSize>16, 23.75</RelativeSize>
+      <Type>1</Type>
+      <Label>AFR</Label>
+      <ParameterID>50120</ParameterID>
+      <Unit>150</Unit>
+      <Decimals>1</Decimals>
+      <Minimum>10</Minimum>
+      <Maximum>16</Maximum>
+      <MajorTickCount>7</MajorTickCount>
+      <MajorTickFactor>1</MajorTickFactor>
+      <MinorTickCount>5</MinorTickCount>
+      <BaseArcStart>135</BaseArcStart>
+      <BaseArcSweep>270</BaseArcSweep>
+      <DrawMaximumPeak>True</DrawMaximumPeak>
+      <Ranges>
+        <Range Start="10" End="11" Level="2" />
+        <Range Start="13" End="16" Level="2" />
+      </Ranges>
+    </Gauge>
+    
+    <!-- MAF Gauge -->
+    <Gauge>
+      <RelativeLocation>1.1, 27.15</RelativeLocation>
+      <RelativeSize>16, 23.75</RelativeSize>
+      <Type>1</Type>
+      <Label>MAF</Label>
+      <ParameterID>50040</ParameterID>
+      <Unit>73</Unit>
+      <Decimals>1</Decimals>
+      <Maximum>300</Maximum>
+      <MajorTickCount>7</MajorTickCount>
+      <MajorTickFactor>50</MajorTickFactor>
+      <MinorTickCount>5</MinorTickCount>
+      <BaseArcStart>135</BaseArcStart>
+      <BaseArcSweep>270</BaseArcSweep>
+      <DrawMaximumPeak>True</DrawMaximumPeak>
+    </Gauge>
+    
+    <!-- ECT Gauge -->
+    <Gauge>
+      <RelativeLocation>83.18, 1.8</RelativeLocation>
+      <RelativeSize>16, 23.75</RelativeSize>
+      <Type>1</Type>
+      <Label>ECT</Label>
+      <ParameterID>50010</ParameterID>
+      <Unit>242</Unit>
+      <Minimum>50</Minimum>
+      <Maximum>250</Maximum>
+      <MajorTickCount>9</MajorTickCount>
+      <MajorTickFactor>25</MajorTickFactor>
+      <MinorTickCount>5</MinorTickCount>
+      <BaseArcStart>135</BaseArcStart>
+      <BaseArcSweep>270</BaseArcSweep>
+      <DrawMaximumPeak>True</DrawMaximumPeak>
+      <Ranges>
+        <Range Start="220" End="230" Level="2" />
+        <Range Start="230" End="250" Level="3" />
+      </Ranges>
+    </Gauge>
+    
+    <!-- IAT Gauge -->
+    <Gauge>
+      <RelativeLocation>83.18, 27.15</RelativeLocation>
+      <RelativeSize>16, 23.75</RelativeSize>
+      <Type>1</Type>
+      <Label>IAT</Label>
+      <ParameterID>50011</ParameterID>
+      <Unit>242</Unit>
+      <Minimum>30</Minimum>
+      <Maximum>150</Maximum>
+      <MajorTickCount>6</MajorTickCount>
+      <MajorTickFactor>20</MajorTickFactor>
+      <MinorTickCount>5</MinorTickCount>
+      <BaseArcStart>135</BaseArcStart>
+      <BaseArcSweep>270</BaseArcSweep>
+      <DrawMaximumPeak>True</DrawMaximumPeak>
+      <Ranges>
+        <Range Start="100" End="120" Level="2" />
+        <Range Start="120" End="150" Level="3" />
+      </Ranges>
+    </Gauge>
+    
+    <!-- Knock Sensor Bar Gauge -->
+    <Gauge>
+      <RelativeLocation>2.322206, 57.7</RelativeLocation>
+      <RelativeSize>5.51, 36.42</RelativeSize>
+      <Type>2</Type>
+      <Label>Knock</Label>
+      <ParameterID>50111</ParameterID>
+      <Unit>161</Unit>
+      <Maximum>5</Maximum>
+      <MajorTickCount>6</MajorTickCount>
+      <MajorTickFactor>1</MajorTickFactor>
+      <DrawMaximumPeak>True</DrawMaximumPeak>
+      <Ranges>
+        <Range Start="2" End="5" Level="3" />
+      </Ranges>
+    </Gauge>
+    
+    <!-- Ignition Timing Bar Gauge -->
+    <Gauge>
+      <RelativeLocation>10.44993, 57.7</RelativeLocation>
+      <RelativeSize>5.51, 36.42</RelativeSize>
+      <Type>2</Type>
+      <Label>Timing</Label>
+      <ParameterID>50110</ParameterID>
+      <Unit>161</Unit>
+      <Maximum>40</Maximum>
+      <MajorTickCount>5</MajorTickCount>
+      <MajorTickFactor>10</MajorTickFactor>
+      <DrawMaximumPeak>True</DrawMaximumPeak>
+    </Gauge>
+    
+    <!-- Throttle Position Bar Gauge -->
+    <Gauge>
+      <RelativeLocation>18.57765, 57.7</RelativeLocation>
+      <RelativeSize>5.51, 36.42</RelativeSize>
+      <Type>2</Type>
+      <Label>TPS</Label>
+      <ParameterID>50090</ParameterID>
+      <Unit>156</Unit>
+      <Maximum>100</Maximum>
+      <MajorTickCount>6</MajorTickCount>
+      <MajorTickFactor>20</MajorTickFactor>
+      <DrawMaximumPeak>True</DrawMaximumPeak>
+    </Gauge>
+    
+    <!-- Accelerator Pedal Position Bar Gauge -->
+    <Gauge>
+      <RelativeLocation>26.70537, 57.7</RelativeLocation>
+      <RelativeSize>5.51, 36.42</RelativeSize>
+      <Type>2</Type>
+      <Label>APP</Label>
+      <ParameterID>50091</ParameterID> <!-- Assuming this is the parameter ID for APP -->
+      <Unit>156</Unit>
+      <Maximum>100</Maximum>
+      <MajorTickCount>6</MajorTickCount>
+      <MajorTickFactor>20</MajorTickFactor>
+      <DrawMaximumPeak>True</DrawMaximumPeak>
+    </Gauge>
+    
+    <!-- Injector Pulse Width Bar Gauge -->
+    <Gauge>
+      <RelativeLocation>34.83309, 57.7</RelativeLocation>
+      <RelativeSize>5.51, 36.42</RelativeSize>
+      <Type>2</Type>
+      <Label>INJ PW</Label>
+      <ParameterID>50112</ParameterID>
+      <Unit>254</Unit>
+      <Decimals>1</Decimals>
+      <Filter>1000000</Filter>
+      <Maximum>25</Maximum>
+      <MajorTickCount>6</MajorTickCount>
+      <MajorTickFactor>5</MajorTickFactor>
+      <DrawMaximumPeak>True</DrawMaximumPeak>
+    </Gauge>
+    
+    <!-- Short Term Fuel Trim Bar Gauge -->
+    <Gauge>
+      <RelativeLocation>42.96081, 57.7</RelativeLocation>
+      <RelativeSize>5.51, 36.42</RelativeSize>
+      <Type>2</Type>
+      <Label>STFT</Label>
+      <ParameterID>50116</ParameterID>
+      <Unit>156</Unit>
+      <Decimals>1</Decimals>
+      <Filter>1000000</Filter>
+      <Minimum>-25</Minimum>
+      <Maximum>25</Maximum>
+      <MajorTickCount>6</MajorTickCount>
+      <MajorTickFactor>10</MajorTickFactor>
+      <DrawMinimumPeak>True</DrawMinimumPeak>
+      <DrawMaximumPeak>True</DrawMaximumPeak>
+      <Ranges>
+        <Range Start="-15" End="-25" Level="3" />
+        <Range Start="15" End="25" Level="3" />
+      </Ranges>
+    </Gauge>
+    
+    <!-- Long Term Fuel Trim Bar Gauge -->
+    <Gauge>
+      <RelativeLocation>51.08853, 57.7</RelativeLocation>
+      <RelativeSize>5.51, 36.42</RelativeSize>
+      <Type>2</Type>
+      <Label>LTFT</Label>
+      <ParameterID>50114</ParameterID>
+      <Unit>156</Unit>
+      <Decimals>1</Decimals>
+      <Filter>1000000</Filter>
+      <Minimum>-25</Minimum>
+      <Maximum>25</Maximum>
+      <MajorTickCount>6</MajorTickCount>
+      <MajorTickFactor>10</MajorTickFactor>
+      <DrawMinimumPeak>True</DrawMinimumPeak>
+      <DrawMaximumPeak>True</DrawMaximumPeak>
+      <Ranges>
+        <Range Start="-15" End="-25" Level="3" />
+        <Range Start="15" End="25" Level="3" />
+      </Ranges>
+    </Gauge>
+    
+    <!-- Vehicle Speed Bar Gauge -->
+    <Gauge>
+      <RelativeLocation>59.21625, 57.7</RelativeLocation>
+      <RelativeSize>5.51, 36.42</RelativeSize>
+      <Type>2</Type>
+      <Label>VSS</Label>
+      <ParameterID>50020</ParameterID>
+      <Unit>114</Unit>
+      <Maximum>100</Maximum>
+      <MajorTickCount>6</MajorTickCount>
+      <MajorTickFactor>20</MajorTickFactor>
+      <DrawMaximumPeak>True</DrawMaximumPeak>
+    </Gauge>
+    
+    <!-- Wastegate/N75 Bar Gauge -->
+    <Gauge>
+      <RelativeLocation>67.34397, 57.7</RelativeLocation>
+      <RelativeSize>5.51, 36.42</RelativeSize>
+      <Type>2</Type>
+      <Label>N75</Label>
+      <ParameterID>50150</ParameterID> <!-- Assuming this is the parameter ID for N75 -->
+      <Unit>156</Unit>
+      <Maximum>100</Maximum>
+      <MajorTickCount>6</MajorTickCount>
+      <MajorTickFactor>20</MajorTickFactor>
+      <DrawMaximumPeak>True</DrawMaximumPeak>
+    </Gauge>
+    
+    <!-- Battery Voltage Bar Gauge -->
+    <Gauge>
+      <RelativeLocation>75.47169, 57.7</RelativeLocation>
+      <RelativeSize>5.51, 36.42</RelativeSize>
+      <Type>2</Type>
+      <Label>BATT</Label>
+      <ParameterID>50050</ParameterID> <!-- Assuming this is the parameter ID for Battery Voltage -->
+      <Unit>118</Unit>
+      <Decimals>1</Decimals>
+      <Minimum>10</Minimum>
+      <Maximum>16</Maximum>
+      <MajorTickCount>7</MajorTickCount>
+      <MajorTickFactor>1</MajorTickFactor>
+      <DrawMaximumPeak>True</DrawMaximumPeak>
+      <Ranges>
+        <Range Start="10" End="11.5" Level="3" />
+        <Range Start="15" End="16" Level="2" />
+      </Ranges>
+    </Gauge>
+    
+    <!-- Oil Temperature Bar Gauge -->
+    <Gauge>
+      <RelativeLocation>83.59941, 57.7</RelativeLocation>
+      <RelativeSize>5.51, 36.42</RelativeSize>
+      <Type>2</Type>
+      <Label>OIL T</Label>
+      <ParameterID>50160</ParameterID> <!-- Assuming this is the parameter ID for Oil Temperature -->
+      <Unit>242</Unit>
+      <Minimum>50</Minimum>
+      <Maximum>300</Maximum>
+      <MajorTickCount>6</MajorTickCount>
+      <MajorTickFactor>50</MajorTickFactor>
+      <DrawMaximumPeak>True</DrawMaximumPeak>
+      <Ranges>
+        <Range Start="250" End="300" Level="3" />
+      </Ranges>
+    </Gauge>
+    
+    <!-- Calculated Load Bar Gauge -->
+    <Gauge>
+      <RelativeLocation>91.72713, 57.7</RelativeLocation>
+      <RelativeSize>5.51, 36.42</RelativeSize>
+      <Type>2</Type>
+      <Label>LOAD</Label>
+      <ParameterID>50080</ParameterID> <!-- Assuming this is the parameter ID for Engine Load -->
+      <Unit>156</Unit>
+      <Maximum>100</Maximum>
+      <MajorTickCount>6</MajorTickCount>
+      <MajorTickFactor>20</MajorTickFactor>
+      <DrawMaximumPeak>True</DrawMaximumPeak>
+    </Gauge>
+  </Content>
+  
+  <!-- Engine Performance Graph -->
+  <Content ID="3" Name="ChartvsTime" Parent="2" DockAlignment="3" Proportion="0.5" IsActiveContent="True" Text="Engine Performance">
+    <Chart>
+      <Series>
+        <Label>RPM</Label>
+        <ParameterID>50070</ParameterID>
+        <Unit>56</Unit>
+        <Maximum>8000</Maximum>
+        <DrawReference>False</DrawReference>
+        <Reference>0</Reference>
+        <Color>-16776961</Color> <!-- Blue -->
+      </Series>
+      <Series>
+        <Label>Speed</Label>
+        <ParameterID>50020</ParameterID>
+        <Unit>114</Unit>
+        <Maximum>100</Maximum>
+        <DrawReference>False</DrawReference>
+        <Reference>0</Reference>
+        <Color>-8355712</Color> <!-- Gray -->
+      </Series>
+    </Chart>
+    <Chart>
+      <Series>
+        <Label>Boost</Label>
+        <ParameterID>50030</ParameterID>
+        <Unit>91</Unit>
+        <Decimals>1</Decimals>
+        <Minimum>-15</Minimum>
+        <Maximum>30</Maximum>
+        <DrawReference>False</DrawReference>
+        <Reference>0</Reference>
+        <Color>-65536</Color> <!-- Red -->
+      </Series>
+      <Series>
+        <Label>Throttle</Label>
+        <ParameterID>50090</ParameterID>
+        <Unit>156</Unit>
+        <Maximum>100</Maximum>
+        <DrawReference>False</DrawReference>
+        <Reference>0</Reference>
+        <Color>-16744448</Color> <!-- Green -->
+      </Series>
+    </Chart>
+  </Content>
+  
+  <!-- Fueling & Timing Graph -->
+  <Content ID="4" Name="ChartvsTime" Parent="2" DockAlignment="1" Proportion="0.5" IsActiveContent="True" Text="Fueling &amp; Timing">
+    <Chart>
+      <Series>
+        <Label>AFR</Label>
+        <ParameterID>50120</ParameterID>
+        <Unit>150</Unit>
+        <Decimals>1</Decimals>
+        <Minimum>10</Minimum>
+        <Maximum>16</Maximum>
+        <DrawReference>False</DrawReference>
+        <Reference>0</Reference>
+        <Color>-23296</Color> <!-- Orange -->
+      </Series>
+      <Series>
+        <Label>STFT</Label>
+        <ParameterID>50116</ParameterID>
+        <Unit>156</Unit>
+        <Decimals>1</Decimals>
+        <Filter>1000000</Filter>
+        <Minimum>-25</Minimum>
+        <Maximum>25</Maximum>
+        <DrawReference>False</DrawReference>
+        <Reference>0</Reference>
+        <Color>-16711681</Color> <!-- Light Blue -->
+      </Series>
+      <Series>
+        <Label>LTFT</Label>
+        <ParameterID>50114</ParameterID>
+        <Unit>156</Unit>
+        <Decimals>1</Decimals>
+        <Filter>1000000</Filter>
+        <Minimum>-25</Minimum>
+        <Maximum>25</Maximum>
+        <DrawReference>False</DrawReference>
+        <Reference>0</Reference>
+        <Color>-16777088</Color> <!-- Dark Blue -->
+      </Series>
+    </Chart>
+    <Chart>
+      <Series>
+        <Label>Timing</Label>
+        <ParameterID>50110</ParameterID>
+        <Unit>161</Unit>
+        <Decimals>1</Decimals>
+        <Maximum>40</Maximum>
+        <DrawReference>False</DrawReference>
+        <Reference>0</Reference>
+        <Color>-8388480</Color> <!-- Purple -->
+      </Series>
+      <Series>
+        <Label>Knock</Label>
+        <ParameterID>50111</ParameterID>
+        <Unit>161</Unit>
+        <Maximum>5</Maximum>
+        <DrawReference>False</DrawReference>
+        <Reference>0</Reference>
+        <Color>-65281</Color> <!-- Pink -->
+      </Series>
+    </Chart>
+  </Content>
+  
+  <!-- Digital Dashboard -->
+  <Content ID="5" Name="Digital" Parent="2" DockAlignment="2" Proportion="0.5" IsActiveContent="True" Text="Digital Dashboard">
+    <Digital>
+      <RelativeLocation>1, 1</RelativeLocation>
+      <RelativeSize>24, 12</RelativeSize>
+      <Label>STFT</Label>
+      <ParameterID>50116</ParameterID>
+      <Unit>156</Unit>
+      <Decimals>1</Decimals>
+      <Filter>1000000</Filter>
+      <Ranges>
+        <Range Start="-15" End="-25" Level="3" />
+        <Range Start="15" End="25" Level="3" />
+      </Ranges>
+    </Digital>
+    <Digital>
+      <RelativeLocation>26, 1</RelativeLocation>
+      <RelativeSize>24, 12</RelativeSize>
+      <Label>LTFT</Label>
+      <ParameterID>50114</ParameterID>
+      <Unit>156</Unit>
+      <Decimals>1</Decimals>
+      <Filter>1000000</Filter>
+      <Ranges>
+        <Range Start="-15" End="-25" Level="3" />
+        <Range Start="15" End="25" Level="3" />
+      </Ranges>
+    </Digital>
+    <Digital>
+      <RelativeLocation>51, 1</RelativeLocation>
+      <RelativeSize>24, 12</RelativeSize>
+      <Label>IAT</Label>
+      <ParameterID>50011</ParameterID>
+      <Unit>242</Unit>
+      <Ranges>
+        <Range Start="100" End="120" Level="2" />
+        <Range Start="120" End="150" Level="3" />
+      </Ranges>
+    </Digital>
+    <Digital>
+      <RelativeLocation>76, 1</RelativeLocation>
+      <RelativeSize>24, 12</RelativeSize>
+      <Label>ECT</Label>
+      <ParameterID>50010</ParameterID>
+      <Unit>242</Unit>
+      <Ranges>
+        <Range Start="220" End="230" Level="2" />
+        <Range Start="230" End="250" Level="3" />
+      </Ranges>
+    </Digital>
+    
+    <Digital>
+      <RelativeLocation>1, 14</RelativeLocation>
+      <RelativeSize>24, 12</RelativeSize>
+      <Label>MAF</Label>
+      <ParameterID>50040</ParameterID>
+      <Unit>73</Unit>
+      <Decimals>1</Decimals>
+    </Digital>
+    <Digital>
+      <RelativeLocation>26, 14</RelativeLocation>
+      <RelativeSize>24, 12</RelativeSize>
+      <Label>LOAD</Label>
+      <ParameterID>50080</ParameterID>
+      <Unit>156</Unit>
+      <Decimals>0</Decimals>
+    </Digital>
+    <Digital>
+      <RelativeLocation>51, 14</RelativeLocation>
+      <RelativeSize>24, 12</RelativeSize>
+      <Label>TP</Label>
+      <ParameterID>50090</ParameterID>
+      <Unit>156</Unit>
+      <Decimals>0</Decimals>
+    </Digital>
+    <Digital>
+      <RelativeLocation>76, 14</RelativeLocation>
+      <RelativeSize>24, 12</RelativeSize>
+      <Label>APP</Label>
+      <ParameterID>50091</ParameterID>
+      <Unit>156</Unit>
+      <Decimals>0</Decimals>
+    </Digital>
+    
+    <Digital>
+      <RelativeLocation>1, 27</RelativeLocation>
+      <RelativeSize>24, 12</RelativeSize>
+      <Label>BATT</Label>
+      <ParameterID>50050</ParameterID>
+      <Unit>118</Unit>
+      <Decimals>1</Decimals>
+      <Ranges>
+        <Range Start="10" End="11.5" Level="3" />
+        <Range Start="15" End="16" Level="2" />
+      </Ranges>
+    </Digital>
+    <Digital>
+      <RelativeLocation>26, 27</RelativeLocation>
+      <RelativeSize>24, 12</RelativeSize>
+      <Label>INJ PW</Label>
+      <ParameterID>50112</ParameterID>
+      <Unit>254</Unit>
+      <Decimals>1</Decimals>
+      <Filter>1000000</Filter>
+    </Digital>
+    <Digital>
+      <RelativeLocation>51, 27</RelativeLocation>
+      <RelativeSize>24, 12</RelativeSize>
+      <Label>FUEL P</Label>
+      <ParameterID>50170</ParameterID> <!-- Assuming this is the parameter ID for Fuel Pressure -->
+      <Unit>91</Unit>
+      <Decimals>0</Decimals>
+    </Digital>
+    <Digital>
+      <RelativeLocation>76, 27</RelativeLocation>
+      <RelativeSize>24, 12</RelativeSize>
+      <Label>MAP</Label>
+      <ParameterID>50030</ParameterID>
+      <Unit>91</Unit>
+      <Decimals>0</Decimals>
+    </Digital>
+    
+    <Digital>
+      <RelativeLocation>1, 40</RelativeLocation>
+      <RelativeSize>24, 12</RelativeSize>
+      <Label>VSS</Label>
+      <ParameterID>50020</ParameterID>
+      <Unit>114</Unit>
+      <Decimals>0</Decimals>
+    </Digital>
+    <Digital>
+      <RelativeLocation>26, 40</RelativeLocation>
+      <RelativeSize>24, 12</RelativeSize>
+      <Label>WG/N75</Label>
+      <ParameterID>50150</ParameterID> <!-- Assuming this is the parameter ID for N75 -->
+      <Unit>156</Unit>
+      <Decimals>0</Decimals>
+    </Digital>
+    <Digital>
+      <RelativeLocation>51, 40</RelativeLocation>
+      <RelativeSize>24, 12</RelativeSize>
+      <Label>CAT T</Label>
+      <ParameterID>50180</ParameterID> <!-- Assuming this is the parameter ID for Catalyst Temperature -->
+      <Unit>242</Unit>
+      <Decimals>0</Decimals>
+      <Ranges>
+        <Range Start="800" End="900" Level="2" />
+        <Range Start="900" End="1000" Level="3" />
+      </Ranges>
+    </Digital>
+    <Digital>
+      <RelativeLocation>76, 40</RelativeLocation>
+      <RelativeSize>24, 12</RelativeSize>
+      <Label>OIL T</Label>
+      <ParameterID>50160</ParameterID> <!-- Assuming this is the parameter ID for Oil Temperature -->
+      <Unit>242</Unit>
+      <Decimals>0</Decimals>
+      <Ranges>
+        <Range Start="250" End="300" Level="3" />
+      </Ranges>
+    </Digital>
+  </Content>
+  
+  <!-- Math Channels -->
+  <Content ID="6" Name="Math" Parent="2" DockAlignment="4" Proportion="0.5" IsActiveContent="True" Text="Math Channels">
+    <MathChannel>
+      <Name>Calc_AFR</Name>
+      <Formula>P50120 * 14.7</Formula>
+      <Description>Calculated AFR from Lambda</Description>
+      <Unit>150</Unit>
+      <Decimals>1</Decimals>
+    </MathChannel>
+    <MathChannel>
+      <Name>Calc_BoostPSI</Name>
+      <Formula>(P50030 - 101.325) * 0.145</Formula>
+      <Description>Boost PSI conversion</Description>
+      <Unit>91</Unit>
+      <Decimals>1</Decimals>
+    </MathChannel>
+    <MathChannel>
+      <Name>Calc_InjDuty</Name>
+      <Formula>(P50112 * P50070 * 0.12) / 60000</Formula>
+      <Description>Injector duty cycle</Description>
+      <Unit>156</Unit>
+      <Decimals>1</Decimals>
+    </MathChannel>
+  </Content>
+  
+  <!-- Triggers -->
+  <Content ID="7" Name="Triggers" Parent="2" DockAlignment="4" Proportion="0.5" IsActiveContent="True" Text="Triggers">
+    <Trigger>
+      <Name>WOT_Logging</Name>
+      <Condition>P50090 > 80</Condition>
+      <PreTrigger>5</PreTrigger>
+      <PostTrigger>10</PostTrigger>
+      <FilePrefix>WOT_</FilePrefix>
+      <Description>Wide Open Throttle logging</Description>
+    </Trigger>
+    <Trigger>
+      <Name>Knock_Event</Name>
+      <Condition>P50111 > 2</Condition>
+      <PreTrigger>3</PreTrigger>
+      <PostTrigger>7</PostTrigger>
+      <FilePrefix>Knock_</FilePrefix>
+      <Description>Knock event detection</Description>
+    </Trigger>
+    <Trigger>
+      <Name>High_Boost</Name>
+      <Condition>P50030 > 20</Condition>
+      <PreTrigger>3</PreTrigger>
+      <PostTrigger>7</PostTrigger>
+      <FilePrefix>Boost_</FilePrefix>
+      <Description>High boost monitoring</Description>
+    </Trigger>
+  </Content>
+</DocumentContents>

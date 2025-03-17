@@ -1,0 +1,87 @@
+# Cline Rules: VCM Scanner Layout Configuration Project
+
+## Project Patterns
+
+### File Structure
+- XML-based configuration files are the primary artifact
+- Memory Bank documentation in Markdown format
+- Follow hierarchical organization for both code and documentation
+
+### Naming Conventions
+- Use descriptive names for all parameters and displays
+- Maintain consistent naming patterns across related elements
+- Prefix math channels with "Calc_" to distinguish from direct parameters
+
+### Implementation Approach
+- Start with core functionality, then expand to advanced features
+- Test incrementally after each significant change
+- Document decisions and rationale in Memory Bank
+
+## User Preferences
+
+### Communication Style
+- Technical and precise language preferred
+- Visual representations help convey layout concepts
+- Step-by-step explanations for technical implementations
+
+### Work Priorities
+- Functionality takes precedence over aesthetics
+- Critical engine monitoring parameters are highest priority
+- Focus on parameters relevant to the specific vehicle modifications
+
+## Technical Insights
+
+### Vehicle-Specific Knowledge
+- Modified with K04 turbo requiring higher boost pressure ranges
+- Upgraded intercooler may affect temperature readings
+- Custom exhaust affects back pressure and related parameters
+- AEM gauges provide additional data sources
+
+### VCM Scanner Insights
+- XML structure must maintain specific format for compatibility
+- Some parameters may have different names than expected
+- Math channels have performance impact if too complex
+- Trigger conditions should be carefully tuned to avoid excessive logging
+
+## Implementation Paths
+
+### Parameter Configuration
+1. Identify parameter in VCM Scanner
+2. Determine appropriate display type
+3. Configure min/max ranges based on modified components
+4. Set warning thresholds
+5. Add to appropriate display groups
+
+### Math Channel Setup
+1. Define input parameters
+2. Create formula with correct operators
+3. Set output range and units
+4. Add to displays where needed
+5. Verify calculation accuracy
+
+### Trigger Configuration
+1. Select parameter to monitor
+2. Define threshold condition
+3. Set logging parameters
+4. Configure reset conditions
+5. Test under actual conditions
+
+## Known Challenges
+
+### Technical Limitations
+- Not all desired parameters may be available
+- Some parameters may have slow update rates
+- Complex layouts may impact scanner performance
+- Some modified components may affect sensor readings
+
+### Implementation Considerations
+- Balance between comprehensive monitoring and usability
+- Appropriate warning thresholds for modified components
+- Organizing related parameters effectively
+- Creating intuitive navigation between different views
+
+## Evolution Notes
+- Project begins with documentation and planning
+- Implementation will follow systematic approach from core to advanced features
+- Testing with actual vehicle connection is essential
+- Expect iterative refinement based on real-world performance

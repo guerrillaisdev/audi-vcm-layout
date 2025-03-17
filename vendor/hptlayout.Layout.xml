@@ -1,0 +1,436 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<DocumentContents>
+  <Content ID="2" Name="Gauge" Parent="-1" IsActiveContent="True" Text="Gauge">
+    <Gauge>
+      <RelativeLocation>1.1, 1.8</RelativeLocation>
+      <RelativeSize>16, 23.75</RelativeSize>
+      <Type>1</Type>
+      <Label>MAF</Label>
+      <ParameterID>50040</ParameterID>
+      <Unit>73</Unit>
+      <Decimals>2</Decimals>
+      <Maximum>60</Maximum>
+      <MajorTickCount>7</MajorTickCount>
+      <MajorTickFactor>1</MajorTickFactor>
+      <MinorTickCount>5</MinorTickCount>
+      <BaseArcStart>135</BaseArcStart>
+      <BaseArcSweep>270</BaseArcSweep>
+      <DrawMaximumPeak>True</DrawMaximumPeak>
+    </Gauge>
+    <Gauge>
+      <RelativeLocation>1.1, 27.15</RelativeLocation>
+      <RelativeSize>16, 23.75</RelativeSize>
+      <Type>1</Type>
+      <Label>MAP</Label>
+      <ParameterID>50030</ParameterID>
+      <Unit>91</Unit>
+      <Decimals>1</Decimals>
+      <Maximum>110</Maximum>
+      <MajorTickCount>12</MajorTickCount>
+      <MajorTickFactor>1</MajorTickFactor>
+      <MinorTickCount>5</MinorTickCount>
+      <BaseArcStart>135</BaseArcStart>
+      <BaseArcSweep>270</BaseArcSweep>
+      <DrawMaximumPeak>True</DrawMaximumPeak>
+    </Gauge>
+    <Gauge>
+      <RelativeLocation>16.61, 1.8</RelativeLocation>
+      <RelativeSize>33.06, 49.09</RelativeSize>
+      <Type>1</Type>
+      <Label>RPM</Label>
+      <ParameterID>50070</ParameterID>
+      <Unit>56</Unit>
+      <Maximum>7000</Maximum>
+      <MajorTickCount>8</MajorTickCount>
+      <MajorTickFactor>1000</MajorTickFactor>
+      <MinorTickCount>5</MinorTickCount>
+      <BaseArcStart>135</BaseArcStart>
+      <BaseArcSweep>270</BaseArcSweep>
+      <DrawMaximumPeak>True</DrawMaximumPeak>
+      <Ranges>
+        <Range Start="5500" End="6000" Level="2" />
+        <Range Start="6000" End="7000" Level="3" />
+      </Ranges>
+    </Gauge>
+    <Gauge>
+      <RelativeLocation>50.63, 1.8</RelativeLocation>
+      <RelativeSize>33.06, 49.09</RelativeSize>
+      <Type>1</Type>
+      <Label>Speed</Label>
+      <ParameterID>50020</ParameterID>
+      <Unit>114</Unit>
+      <Maximum>160</Maximum>
+      <MajorTickCount>17</MajorTickCount>
+      <MajorTickFactor>1</MajorTickFactor>
+      <MinorTickCount>5</MinorTickCount>
+      <BaseArcStart>135</BaseArcStart>
+      <BaseArcSweep>270</BaseArcSweep>
+      <DrawMaximumPeak>True</DrawMaximumPeak>
+    </Gauge>
+    <Gauge>
+      <RelativeLocation>83.18, 1.8</RelativeLocation>
+      <RelativeSize>16, 23.75</RelativeSize>
+      <Type>1</Type>
+      <Label>ECT</Label>
+      <ParameterID>50010</ParameterID>
+      <Unit>242</Unit>
+      <Minimum>50</Minimum>
+      <Maximum>250</Maximum>
+      <MajorTickCount>9</MajorTickCount>
+      <MajorTickFactor>1</MajorTickFactor>
+      <MinorTickCount>5</MinorTickCount>
+      <BaseArcStart>135</BaseArcStart>
+      <BaseArcSweep>270</BaseArcSweep>
+      <DrawMaximumPeak>True</DrawMaximumPeak>
+      <Ranges>
+        <Range Start="220" End="230" Level="2" />
+        <Range Start="230" End="250" Level="3" />
+      </Ranges>
+    </Gauge>
+    <Gauge>
+      <RelativeLocation>83.18, 27.15</RelativeLocation>
+      <RelativeSize>16, 23.75</RelativeSize>
+      <Type>1</Type>
+      <Label>IAT</Label>
+      <ParameterID>50011</ParameterID>
+      <Unit>242</Unit>
+      <Minimum>30</Minimum>
+      <Maximum>150</Maximum>
+      <MajorTickCount>13</MajorTickCount>
+      <MajorTickFactor>1</MajorTickFactor>
+      <MinorTickCount>5</MinorTickCount>
+      <BaseArcStart>135</BaseArcStart>
+      <BaseArcSweep>270</BaseArcSweep>
+      <DrawMaximumPeak>True</DrawMaximumPeak>
+      <Ranges>
+        <Range Start="100" End="110" Level="2" />
+        <Range Start="110" End="150" Level="3" />
+      </Ranges>
+    </Gauge>
+    <Gauge>
+      <RelativeLocation>2.322206, 57.7</RelativeLocation>
+      <RelativeSize>5.51, 36.42</RelativeSize>
+      <Type>2</Type>
+      <Label>KR</Label>
+      <ParameterID>50111</ParameterID>
+      <Unit>161</Unit>
+      <Maximum>10</Maximum>
+      <MajorTickCount>6</MajorTickCount>
+      <MajorTickFactor>1</MajorTickFactor>
+      <DrawMaximumPeak>True</DrawMaximumPeak>
+      <Ranges>
+        <Range Start="1" End="10" Level="3" />
+      </Ranges>
+    </Gauge>
+    <Gauge>
+      <RelativeLocation>10.44993, 57.7</RelativeLocation>
+      <RelativeSize>5.51, 36.42</RelativeSize>
+      <Type>2</Type>
+      <Label>Advance</Label>
+      <ParameterID>50110</ParameterID>
+      <Unit>161</Unit>
+      <Maximum>45</Maximum>
+      <MajorTickCount>4</MajorTickCount>
+      <MajorTickFactor>1</MajorTickFactor>
+      <DrawMaximumPeak>True</DrawMaximumPeak>
+    </Gauge>
+    <Gauge>
+      <RelativeLocation>29.02757, 57.7</RelativeLocation>
+      <RelativeSize>5.51, 36.42</RelativeSize>
+      <Type>2</Type>
+      <Label>TPS</Label>
+      <ParameterID>50090</ParameterID>
+      <Unit>156</Unit>
+      <Maximum>100</Maximum>
+      <MajorTickCount>6</MajorTickCount>
+      <MajorTickFactor>1</MajorTickFactor>
+      <DrawMaximumPeak>True</DrawMaximumPeak>
+    </Gauge>
+    <Gauge>
+      <RelativeLocation>38.3164, 57.7</RelativeLocation>
+      <RelativeSize>5.51, 36.42</RelativeSize>
+      <Type>2</Type>
+      <Label>INJ</Label>
+      <ParameterID>50112</ParameterID>
+      <Unit>254</Unit>
+      <Decimals>1</Decimals>
+      <Filter>1000000</Filter>
+      <Maximum>25</Maximum>
+      <MajorTickCount>6</MajorTickCount>
+      <MajorTickFactor>1</MajorTickFactor>
+      <DrawMaximumPeak>True</DrawMaximumPeak>
+    </Gauge>
+    <Gauge>
+      <RelativeLocation>47.60522, 57.7</RelativeLocation>
+      <RelativeSize>5.51, 36.42</RelativeSize>
+      <Type>2</Type>
+      <Label>AFR</Label>
+      <ParameterID>50120</ParameterID>
+      <Unit>150</Unit>
+      <Decimals>2</Decimals>
+      <Filter>1000000</Filter>
+      <Minimum>11</Minimum>
+      <Maximum>18</Maximum>
+      <MajorTickCount>5</MajorTickCount>
+      <MajorTickFactor>1</MajorTickFactor>
+    </Gauge>
+    <Gauge>
+      <RelativeLocation>56.89405, 57.7</RelativeLocation>
+      <RelativeSize>5.51, 36.42</RelativeSize>
+      <Type>2</Type>
+      <Label>LT FT</Label>
+      <ParameterID>50114</ParameterID>
+      <Unit>156</Unit>
+      <Decimals>1</Decimals>
+      <Filter>1000000</Filter>
+      <Minimum>-25</Minimum>
+      <Maximum>25</Maximum>
+      <MajorTickCount>5</MajorTickCount>
+      <MajorTickFactor>1</MajorTickFactor>
+      <DrawMinimumPeak>True</DrawMinimumPeak>
+      <DrawMaximumPeak>True</DrawMaximumPeak>
+      <Ranges>
+        <Range Start="-15" End="-25" Level="3" />
+        <Range Start="15" End="25" Level="3" />
+      </Ranges>
+    </Gauge>
+    <Gauge>
+      <RelativeLocation>66.18288, 57.7</RelativeLocation>
+      <RelativeSize>5.51, 36.42</RelativeSize>
+      <Type>2</Type>
+      <Label>ST FT</Label>
+      <ParameterID>50116</ParameterID>
+      <Unit>156</Unit>
+      <Decimals>1</Decimals>
+      <Filter>1000000</Filter>
+      <Minimum>-25</Minimum>
+      <Maximum>25</Maximum>
+      <MajorTickFactor>1</MajorTickFactor>
+      <DrawMinimumPeak>True</DrawMinimumPeak>
+      <DrawMaximumPeak>True</DrawMaximumPeak>
+    </Gauge>
+  </Content>
+  <Content ID="3" Name="ChartvsTime" Parent="2" DockAlignment="3" Proportion="0.5" IsActiveContent="True" Text="Chart vs. Time">
+    <Chart>
+      <Series>
+        <Label>RPM</Label>
+        <ParameterID>50070</ParameterID>
+        <Unit>56</Unit>
+        <Maximum>6000</Maximum>
+        <DrawReference>False</DrawReference>
+        <Reference>0</Reference>
+        <Color>-65536</Color>
+      </Series>
+      <Series>
+        <Label>Speed</Label>
+        <ParameterID>50020</ParameterID>
+        <Unit>114</Unit>
+        <Maximum>160</Maximum>
+        <DrawReference>False</DrawReference>
+        <Reference>0</Reference>
+        <Color>-16711936</Color>
+      </Series>
+    </Chart>
+    <Chart>
+      <Series>
+        <Label>MAF</Label>
+        <ParameterID>50040</ParameterID>
+        <Unit>73</Unit>
+        <Decimals>2</Decimals>
+        <Maximum>60</Maximum>
+        <DrawReference>False</DrawReference>
+        <Reference>0</Reference>
+        <Color>-16711681</Color>
+      </Series>
+      <Series>
+        <Label>MAP</Label>
+        <ParameterID>50030</ParameterID>
+        <Unit>91</Unit>
+        <Decimals>1</Decimals>
+        <Maximum>105</Maximum>
+        <DrawReference>False</DrawReference>
+        <Reference>0</Reference>
+        <Color>-65281</Color>
+      </Series>
+      <Series>
+        <Label>O2 (afr)</Label>
+        <ParameterID>50120</ParameterID>
+        <Unit>150</Unit>
+        <Decimals>2</Decimals>
+        <Filter>1000000</Filter>
+        <Minimum>11</Minimum>
+        <Maximum>18</Maximum>
+        <DrawReference>False</DrawReference>
+        <Reference>0</Reference>
+        <Color>-16711936</Color>
+      </Series>
+    </Chart>
+    <Chart>
+      <Series>
+        <Label>KR</Label>
+        <ParameterID>50111</ParameterID>
+        <Unit>161</Unit>
+        <Decimals>1</Decimals>
+        <Maximum>10</Maximum>
+        <DrawReference>False</DrawReference>
+        <Reference>0</Reference>
+        <Color>-65536</Color>
+      </Series>
+      <Series>
+        <Label>Spark</Label>
+        <ParameterID>50110</ParameterID>
+        <Unit>161</Unit>
+        <Decimals>1</Decimals>
+        <Maximum>45</Maximum>
+        <DrawReference>False</DrawReference>
+        <Reference>0</Reference>
+        <Color>-1</Color>
+      </Series>
+      <Series>
+        <Label>TPS</Label>
+        <ParameterID>50090</ParameterID>
+        <Unit>156</Unit>
+        <Decimals>1</Decimals>
+        <Maximum>100</Maximum>
+        <DrawReference>False</DrawReference>
+        <Reference>0</Reference>
+        <Color>-16711936</Color>
+      </Series>
+    </Chart>
+    <Chart>
+      <Series>
+        <Label>O2 #1 (afr)</Label>
+        <ParameterID>50125</ParameterID>
+        <Unit>150</Unit>
+        <Decimals>2</Decimals>
+        <Minimum>11</Minimum>
+        <Maximum>18</Maximum>
+        <DrawReference>False</DrawReference>
+        <Reference>0</Reference>
+        <Color>-8689426</Color>
+      </Series>
+      <Series>
+        <Label>INJ</Label>
+        <ParameterID>50112</ParameterID>
+        <Unit>254</Unit>
+        <Decimals>1</Decimals>
+        <Filter>1000000</Filter>
+        <Maximum>25</Maximum>
+        <DrawReference>False</DrawReference>
+        <Reference>0</Reference>
+        <Color>-65536</Color>
+      </Series>
+      <Series>
+        <Label>O2 #2 (afr)</Label>
+        <ParameterID>50126</ParameterID>
+        <Unit>150</Unit>
+        <Decimals>2</Decimals>
+        <Minimum>11</Minimum>
+        <Maximum>18</Maximum>
+        <DrawReference>False</DrawReference>
+        <Reference>0</Reference>
+        <Color>-16711681</Color>
+      </Series>
+    </Chart>
+    <Chart>
+      <Series>
+        <Label>LTFT</Label>
+        <ParameterID>50114</ParameterID>
+        <Unit>156</Unit>
+        <Decimals>1</Decimals>
+        <Filter>1000000</Filter>
+        <Minimum>-25</Minimum>
+        <Maximum>25</Maximum>
+        <DrawReference>False</DrawReference>
+        <Reference>0</Reference>
+        <Color>-65536</Color>
+      </Series>
+      <Series>
+        <Label>STFT</Label>
+        <ParameterID>50116</ParameterID>
+        <Unit>156</Unit>
+        <Decimals>1</Decimals>
+        <Filter>1000000</Filter>
+        <Minimum>-25</Minimum>
+        <Maximum>25</Maximum>
+        <DrawReference>False</DrawReference>
+        <Reference>0</Reference>
+        <Color>-8689426</Color>
+      </Series>
+    </Chart>
+  </Content>
+  <Content ID="4" Name="Graph" Parent="2" DockAlignment="1" Proportion="0.5" IsActiveContent="True" Text="Graph">
+    <Table>
+      <Label>Spark Advance</Label>
+      <ParameterID>50110</ParameterID>
+      <Unit>161</Unit>
+      <HighValue>40</HighValue>
+      <HighValueColor>-11765250</HighValueColor>
+      <MiddleValue>10</MiddleValue>
+      <LowValueColor>-1</LowValueColor>
+      <ColumnParameterID>50070</ColumnParameterID>
+      <ColumnUnit>56</ColumnUnit>
+      <ColumnAxis>400,800,1200,1600,2000,2400,2800,3200,3600,4000,4400,4800,5200,5600,6000,6400,6800</ColumnAxis>
+      <ColumnAxisVisualFactor>1000</ColumnAxisVisualFactor>
+      <RowParameterID>50030</RowParameterID>
+      <RowUnit>91</RowUnit>
+      <RowAxis>15,20,25,30,35,40,45,50,55,60,65,70,75,80,85,90,95,100,105</RowAxis>
+    </Table>
+    <Table>
+      <Label>Spark Retard</Label>
+      <ParameterID>50111</ParameterID>
+      <Unit>161</Unit>
+      <HighValue>10</HighValue>
+      <HighValueColor>-65536</HighValueColor>
+      <LowValueColor>-1</LowValueColor>
+      <ColumnParameterID>50070</ColumnParameterID>
+      <ColumnUnit>56</ColumnUnit>
+      <ColumnAxis>400,800,1200,1600,2000,2400,2800,3200,3600,4000,4400,4800,5200,5600,6000,6400,6800</ColumnAxis>
+      <ColumnAxisVisualFactor>1000</ColumnAxisVisualFactor>
+      <RowParameterID>50030</RowParameterID>
+      <RowUnit>91</RowUnit>
+      <RowAxis>15,20,25,30,35,40,45,50,55,60,65,70,75,80,85,90,95,100,105</RowAxis>
+    </Table>
+    <Table>
+      <Label>O2 (afr)</Label>
+      <ParameterID>50120</ParameterID>
+      <Unit>150</Unit>
+      <Decimals>1</Decimals>
+      <HighValue>18</HighValue>
+      <HighValueColor>-16711936</HighValueColor>
+      <MiddleValue>14.5</MiddleValue>
+      <LowValue>11</LowValue>
+      <LowValueColor>-65536</LowValueColor>
+      <ColumnParameterID>50070</ColumnParameterID>
+      <ColumnUnit>56</ColumnUnit>
+      <ColumnAxis>400,800,1200,1600,2000,2400,2800,3200,3600,4000,4400,4800,5200,5600,6000,6400,6800</ColumnAxis>
+      <ColumnAxisVisualFactor>1000</ColumnAxisVisualFactor>
+      <RowParameterID>50030</RowParameterID>
+      <RowUnit>91</RowUnit>
+      <RowAxis>15,20,25,30,35,40,45,50,55,60,65,70,75,80,85,90,95,100,105</RowAxis>
+    </Table>
+    <Table>
+      <Label>O2 Error (afr)</Label>
+      <ParameterID>60020</ParameterID>
+      <Unit>150</Unit>
+      <HighValue>20</HighValue>
+      <HighValueColor>-65536</HighValueColor>
+      <LowValue>-20</LowValue>
+      <LowValueColor>-16711936</LowValueColor>
+      <ColumnParameterID>50070</ColumnParameterID>
+      <ColumnUnit>56</ColumnUnit>
+      <ColumnAxis>400,800,1200,1600,2000,2400,2800,3200,3600,4000,4400,4800,5200,5600,6000,6400,6800</ColumnAxis>
+      <ColumnAxisVisualFactor>1000</ColumnAxisVisualFactor>
+      <RowParameterID>50030</RowParameterID>
+      <RowUnit>91</RowUnit>
+      <RowAxis>15,20,25,30,35,40,45,50,55,60,65,70,75,80,85,90,95,100,105</RowAxis>
+    </Table>
+    <Histogram>
+      <Label>RPM</Label>
+      <ViewZoomDataOnly>True</ViewZoomDataOnly>
+      <ColumnParameterID>50070</ColumnParameterID>
+      <ColumnUnit>56</ColumnUnit>
+      <ColumnAxis>400,800,1200,1600,2000,2400,2800,3200,3600,4000,4400,4800,5200,5600,6000,6400,6800</ColumnAxis>
+    </Histogram>
+  </Content>
+</DocumentContents>

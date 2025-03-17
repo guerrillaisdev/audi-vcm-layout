@@ -1,0 +1,28 @@
+- Cts downpipe (test pipe)
+- K04 borgwarner turbo 
+- Forge Armospheric Diverter valve (different springs for boost PSI)
+- Injectors stock
+- Iridium Spark Plugs
+- Performance Coil Packs
+- CTS turbo cold air intake
+- CTS turbo Inlet / Outlet / and Charge Pipe
+- Upgraded intercooler (CTS Turbo Pipes & boots/clamps)
+- 3" Custom Exhaust Piping
+- Magnaflow Performance Exhaust Muffler 3"
+- Forge n75 boost control module
+- New timing chain and tensioners
+- Heads machined
+- New APR Head Studs & Head Gasket
+- New Exhaust Cam Shaft
+- New Cam Shaft Bridge Bracket
+- New Oil Drain Plug
+- New Ignition Coil Wiring Harness
+- New Fuel Injector Wiring Harness
+- New Oil Pressure Sensor
+- New Coolant Temp Sensor
+- New High Pressure Fuel Pump
+- New Vaccum Pump & Gasket
+- New Custom Heat Shielding
+- New AEM Gauges (Boost/Oil Pressure/Wideband-air/fuel ratio)
+- New Vaccum and Boost Lines
+- Fresh Coolant, Oil and Transmission Fluid 
