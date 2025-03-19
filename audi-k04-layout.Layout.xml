@@ -653,4 +653,224 @@
       <Description>High boost monitoring</Description>
     </Trigger>
   </Content>
+  
+  <!-- Advanced Charts for K04 Monitoring - Split into separate tabs -->
+  <Content ID="8" Name="ChartvsTime" Parent="-1" IsActiveContent="True" Text="K04 Air/Boost Charts">
+    <!-- Chart 1: Air Flow and Pressure -->
+    <Chart>
+      <Series>
+        <Label>MAF</Label>
+        <ParameterID>50040</ParameterID>
+        <Unit>73</Unit>
+        <Decimals>1</Decimals>
+        <Maximum>300</Maximum>
+        <DrawReference>False</DrawReference>
+        <Reference>0</Reference>
+        <Color>-16711681</Color> <!-- Light Blue -->
+      </Series>
+      <Series>
+        <Label>MAP</Label>
+        <ParameterID>50030</ParameterID>
+        <Unit>91</Unit>
+        <Decimals>1</Decimals>
+        <Maximum>250</Maximum>
+        <DrawReference>False</DrawReference>
+        <Reference>0</Reference>
+        <Color>-65281</Color> <!-- Pink -->
+      </Series>
+      <Series>
+        <Label>Calc_BoostPSI</Label>
+        <ParameterID>60001</ParameterID> <!-- Math channel ID -->
+        <Unit>91</Unit>
+        <Decimals>1</Decimals>
+        <Minimum>-15</Minimum>
+        <Maximum>30</Maximum>
+        <DrawReference>True</DrawReference>
+        <Reference>0</Reference>
+        <Color>-65536</Color> <!-- Red -->
+      </Series>
+    </Chart>
+    
+    <!-- Chart 2: Knock and Timing -->
+    <Chart>
+      <Series>
+        <Label>Knock</Label>
+        <ParameterID>50111</ParameterID>
+        <Unit>161</Unit>
+        <Decimals>1</Decimals>
+        <Maximum>5</Maximum>
+        <DrawReference>True</DrawReference>
+        <Reference>2</Reference>
+        <Color>-65536</Color> <!-- Red -->
+      </Series>
+      <Series>
+        <Label>Timing</Label>
+        <ParameterID>50110</ParameterID>
+        <Unit>161</Unit>
+        <Decimals>1</Decimals>
+        <Maximum>40</Maximum>
+        <DrawReference>False</DrawReference>
+        <Reference>0</Reference>
+        <Color>-1</Color> <!-- White -->
+      </Series>
+      <Series>
+        <Label>RPM</Label>
+        <ParameterID>50070</ParameterID>
+        <Unit>56</Unit>
+        <Maximum>8000</Maximum>
+        <DrawReference>False</DrawReference>
+        <Reference>0</Reference>
+        <Color>-16776961</Color> <!-- Blue -->
+      </Series>
+    </Chart>
+    
+  </Content>
+  
+  <!-- K04 Fueling Charts Tab - Now under Fueling & Timing tab -->
+  <Content ID="9" Name="ChartvsTime" Parent="4" DockAlignment="3" Proportion="0.5" IsActiveContent="True" Text="K04 Fueling Charts">
+    <!-- Chart 1: Fueling -->
+    <Chart>
+      <Series>
+        <Label>AFR</Label>
+        <ParameterID>50120</ParameterID>
+        <Unit>150</Unit>
+        <Decimals>1</Decimals>
+        <Minimum>10</Minimum>
+        <Maximum>16</Maximum>
+        <DrawReference>True</DrawReference>
+        <Reference>14.7</Reference>
+        <Color>-23296</Color> <!-- Orange -->
+      </Series>
+      <Series>
+        <Label>Calc_AFR</Label>
+        <ParameterID>60000</ParameterID> <!-- Math channel ID -->
+        <Unit>150</Unit>
+        <Decimals>1</Decimals>
+        <Minimum>10</Minimum>
+        <Maximum>16</Maximum>
+        <DrawReference>False</DrawReference>
+        <Reference>0</Reference>
+        <Color>-16744448</Color> <!-- Green -->
+      </Series>
+      <Series>
+        <Label>INJ PW</Label>
+        <ParameterID>50112</ParameterID>
+        <Unit>254</Unit>
+        <Decimals>1</Decimals>
+        <Filter>1000000</Filter>
+        <Maximum>25</Maximum>
+        <DrawReference>False</DrawReference>
+        <Reference>0</Reference>
+        <Color>-65536</Color> <!-- Red -->
+      </Series>
+    </Chart>
+    
+    <!-- Chart 2: Fuel Trims -->
+    <Chart>
+      <Series>
+        <Label>STFT</Label>
+        <ParameterID>50116</ParameterID>
+        <Unit>156</Unit>
+        <Decimals>1</Decimals>
+        <Filter>1000000</Filter>
+        <Minimum>-25</Minimum>
+        <Maximum>25</Maximum>
+        <DrawReference>True</DrawReference>
+        <Reference>0</Reference>
+        <Color>-16711681</Color> <!-- Light Blue -->
+      </Series>
+      <Series>
+        <Label>LTFT</Label>
+        <ParameterID>50114</ParameterID>
+        <Unit>156</Unit>
+        <Decimals>1</Decimals>
+        <Filter>1000000</Filter>
+        <Minimum>-25</Minimum>
+        <Maximum>25</Maximum>
+        <DrawReference>True</DrawReference>
+        <Reference>0</Reference>
+        <Color>-16777088</Color> <!-- Dark Blue -->
+      </Series>
+      <Series>
+        <Label>Calc_InjDuty</Label>
+        <ParameterID>60002</ParameterID> <!-- Math channel ID -->
+        <Unit>156</Unit>
+        <Decimals>1</Decimals>
+        <Maximum>100</Maximum>
+        <DrawReference>True</DrawReference>
+        <Reference>80</Reference>
+        <Color>-65536</Color> <!-- Red -->
+      </Series>
+    </Chart>
+  </Content>
+  
+  <!-- K04 Boost Control Tab -->
+  <Content ID="10" Name="ChartvsTime" Parent="-1" IsActiveContent="True" Text="K04 Boost Control">
+    <!-- Chart 1: Boost Control -->
+    <Chart>
+      <Series>
+        <Label>N75 Duty</Label>
+        <ParameterID>50150</ParameterID>
+        <Unit>156</Unit>
+        <Maximum>100</Maximum>
+        <DrawReference>False</DrawReference>
+        <Reference>0</Reference>
+        <Color>-16711936</Color> <!-- Green -->
+      </Series>
+      <Series>
+        <Label>Boost</Label>
+        <ParameterID>50030</ParameterID>
+        <Unit>91</Unit>
+        <Decimals>1</Decimals>
+        <Minimum>-15</Minimum>
+        <Maximum>30</Maximum>
+        <DrawReference>False</DrawReference>
+        <Reference>0</Reference>
+        <Color>-65536</Color> <!-- Red -->
+      </Series>
+      <Series>
+        <Label>TPS</Label>
+        <ParameterID>50090</ParameterID>
+        <Unit>156</Unit>
+        <Maximum>100</Maximum>
+        <DrawReference>False</DrawReference>
+        <Reference>0</Reference>
+        <Color>-16776961</Color> <!-- Blue -->
+      </Series>
+    </Chart>
+    
+    <!-- Chart 2: Temperatures -->
+    <Chart>
+      <Series>
+        <Label>IAT</Label>
+        <ParameterID>50011</ParameterID>
+        <Unit>242</Unit>
+        <Minimum>30</Minimum>
+        <Maximum>150</Maximum>
+        <DrawReference>False</DrawReference>
+        <Reference>0</Reference>
+        <Color>-16711936</Color> <!-- Green -->
+      </Series>
+      <Series>
+        <Label>ECT</Label>
+        <ParameterID>50010</ParameterID>
+        <Unit>242</Unit>
+        <Minimum>50</Minimum>
+        <Maximum>250</Maximum>
+        <DrawReference>False</DrawReference>
+        <Reference>0</Reference>
+        <Color>-65536</Color> <!-- Red -->
+      </Series>
+      <Series>
+        <Label>OIL T</Label>
+        <ParameterID>50160</ParameterID>
+        <Unit>242</Unit>
+        <Minimum>50</Minimum>
+        <Maximum>300</Maximum>
+        <DrawReference>False</DrawReference>
+        <Reference>0</Reference>
+        <Color>-23296</Color> <!-- Orange -->
+      </Series>
+    </Chart>
+  </Content>
 </DocumentContents>
