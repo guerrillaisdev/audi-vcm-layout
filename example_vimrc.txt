@@ -1,0 +1,84 @@
+" Basic Vim Configuration File (.vimrc)
+" Copy this to your home directory as .vimrc or _vimrc (on Windows)
+" For Windows, typically place at: C:\Users\YourUsername\_vimrc
+
+" General Settings
+set nocompatible              " Use Vim settings, rather than Vi settings
+set backspace=indent,eol,start " Allow backspacing over everything in insert mode
+set history=1000              " Keep 1000 lines of command line history
+set ruler                     " Show the cursor position all the time
+set showcmd                   " Display incomplete commands
+set incsearch                 " Do incremental searching
+set hlsearch                  " Highlight search results
+set ignorecase                " Ignore case when searching
+set smartcase                 " Override ignorecase if search pattern has uppercase
+set number                    " Show line numbers
+set relativenumber            " Show relative line numbers
+set wildmenu                  " Enhanced command-line completion
+set wildmode=longest,list,full " Complete longest common string, list alternatives, complete next full match
+set laststatus=2              " Always display the status line
+set confirm                   " Prompt to save changes when exiting
+set visualbell                " Use visual bell instead of beeping
+set t_vb=                     " No visual bell
+set mouse=a                   " Enable mouse usage in all modes
+set clipboard=unnamed         " Use system clipboard
+set encoding=utf-8            " Use UTF-8 encoding
+set fileencoding=utf-8        " Use UTF-8 file encoding
+
+" Indentation Settings
+set autoindent                " Copy indent from current line when starting a new line
+set smartindent               " Smart autoindenting when starting a new line
+set tabstop=4                 " Number of spaces that a <Tab> counts for
+set shiftwidth=4              " Number of spaces to use for each step of (auto)indent
+set expandtab                 " Use spaces instead of tabs
+set softtabstop=4             " Number of spaces that a <Tab> counts for while editing
+
+" Appearance
+syntax enable                 " Enable syntax highlighting
+set background=dark           " Use dark background
+colorscheme desert            " Use desert color scheme (comes with Vim)
+set cursorline                " Highlight current line
+set showmatch                 " Show matching brackets
+set wrap                      " Wrap lines
+set linebreak                 " Wrap lines at convenient points
+
+" File Type Specific Settings
+filetype plugin indent on     " Enable file type detection, plugins, and indentation
+
+" Key Mappings
+" Map jj to Escape in insert mode
+inoremap jj <Esc>
+
+" Map leader key to space
+let mapleader = " "
+
+" Quick save with leader+w
+nnoremap <Leader>w :w<CR>
+
+" Quick quit with leader+q
+nnoremap <Leader>q :q<CR>
+
+" Navigate between windows with Ctrl+h/j/k/l
+nnoremap <C-h> <C-w>h
+nnoremap <C-j> <C-w>j
+nnoremap <C-k> <C-w>k
+nnoremap <C-l> <C-w>l
+
+" Toggle line numbers with leader+n
+nnoremap <Leader>n :set number!<CR>
+
+" Clear search highlighting with leader+c
+nnoremap <Leader>c :nohlsearch<CR>
+
+" Reload .vimrc with leader+r
+nnoremap <Leader>r :source $MYVIMRC<CR>
+
+" Basic Vim Tips:
+" - Press 'i' to enter insert mode, 'Esc' to return to normal mode
+" - Use 'h', 'j', 'k', 'l' to navigate left, down, up, right
+" - Use ':w' to save, ':q' to quit, ':wq' to save and quit
+" - Use '/' to search, 'n' for next match, 'N' for previous match
+" - Use 'dd' to delete a line, 'yy' to copy a line, 'p' to paste
+" - Use 'u' to undo, 'Ctrl+r' to redo
+" - Use 'gg' to go to the beginning of the file, 'G' to go to the end
+" - Use 'Ctrl+f' to page down, 'Ctrl+b' to page up
